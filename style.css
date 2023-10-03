@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+}
+header {
+  background-color: #000;
+  color: #fff;
+}
+.upperNav {
+  display: flex;
+  align-items: center;
+}
+.upperNav img {
+  height: 3rem;
+}
+.marvelLogo {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+.navItems {
+  display: flex;
+  border-top: 1px solid #cfcfcf;
+  justify-content: center;
+}
+li {
+  list-style: none;
+  padding: 1rem 2rem;
+}
+a {
+  cursor: pointer;
+  font-weight: 500;
+  transition: color 0.5s ease-in-out;
+}
+a:hover {
+  color: red;
+}
+.apiResultSection{
+  margin: 5rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.eachResultSection{
+  text-align: center;
+  width: 20rem;
+  border: 2px solid black;
+  margin: 5rem;
+  padding: 2rem;
+  color: #fff;
+  font-weight: 600;
+  background-color: #000;
+}
+.eachResultSection img{
+  border: 2px solid black;
+}
+.eachResultSection p{
+  padding-top: 1rem;
+}
+
+.showMore {
+  display: none;
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, blue, black);
+  border-radius: 1rem;
+  color: #fff;
+  text-align: center;
+  width: fit-content;
+  margin: 2rem auto;
+  cursor: pointer;
+}
+.homeSection {
+  margin: 5rem;
+  display: flex;
+  align-items: center;
+}
+.homeSection img {
+  width: 80%;
+  object-fit: cover;
+  margin: auto;
+}
