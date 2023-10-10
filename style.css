@@ -35,7 +35,8 @@ header {
   display: flex;
   align-items: center;
 }
-.fa-heart {
+.fa-heart,
+.fa-plus {
   padding-right: 1rem;
 }
 .saerch {
@@ -68,8 +69,17 @@ header {
   border-radius: 0.5rem;
   font-size: 2rem;
   font-weight: 700;
+  justify-content: space-between;
+}
+.details,
+.addFav {
+  display: flex;
+  align-items: center;
   color: #130059;
   cursor: pointer;
+}
+.addFav{
+  color: #9e0000;;
 }
 .eachResult img {
   height: 4rem;
