@@ -22,24 +22,14 @@ header {
   align-items: center;
   padding: 0rem 3rem;
 }
-.heading,
-.favourite {
+.heading {
   text-decoration: none;
   font-size: 3rem;
   font-weight: 700;
   color: #130059;
   cursor: pointer;
 }
-.favourite {
-  font-size: 2rem;
-  display: flex;
-  align-items: center;
-}
-.fa-heart,
-.fa-plus {
-  padding-right: 1rem;
-}
-.saerch {
+.mainDisplay {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -51,9 +41,12 @@ header {
   height: 5rem;
   width: 50vw;
   font-size: 2rem;
+  font-weight: 700;
+  color: #130059;
   border: none;
   outline: none;
   border-radius: 1rem;
+  background: #ffffff5f;
 }
 .onSeachResults {
   display: flex;
@@ -63,7 +56,7 @@ header {
   width: 50vw;
   display: flex;
   align-items: center;
-  background-color: #ffffff9c;
+  background-color: #000000c5;
   padding: 0.5rem 1rem;
   margin: 0.5rem 0;
   border-radius: 0.5rem;
@@ -71,15 +64,13 @@ header {
   font-weight: 700;
   justify-content: space-between;
 }
-.details,
-.addFav {
+.details {
   display: flex;
   align-items: center;
-  color: #130059;
-  cursor: pointer;
+  color: #fff;
 }
-.addFav{
-  color: #9e0000;;
+.charname {
+  cursor: pointer;
 }
 .eachResult img {
   height: 4rem;
@@ -87,4 +78,72 @@ header {
   background-position: center;
   object-fit: cover;
   margin-right: 2rem;
+}
+.oneHero {
+  width: 70vw;
+  margin: auto;
+  font-size: 2rem;
+  background-color: #000000;
+  color: #fff;
+}
+.upperPart,
+.midPart,
+.lastPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+.leftPart,
+.rightPart {
+  padding: 1rem;
+  width: 50%;
+}
+.leftPart img {
+  width: 100%;
+  height: 40rem;
+  object-fit: cover;
+  background-position: center;
+}
+.description {
+  font-size: 1.6rem;
+}
+.roleHeading,
+.charHeading {
+  color: #7dffee;
+}
+.exit {
+  color: #ff7d7d;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  header {
+    justify-content: center;
+  }
+  #searchItem {
+    width: 80vw;
+  }
+  .eachResult {
+    width: 80vw;
+  }
+  .oneHero {
+    width: 90vw;
+  }
+  .midPart {
+    flex-direction: column;
+  }
+  .upperPart,
+  .midPart,
+  .lastPart {
+    padding: 1rem;
+  }
+  .leftPart,
+  .rightPart {
+    width: 100%;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  .leftPart img {
+    height: 30vh;
+  }
 }
