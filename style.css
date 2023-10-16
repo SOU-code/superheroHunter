@@ -1,11 +1,14 @@
+/* Set Null all Styling */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+/* set font size 10px for using rem */
 :root {
   font-size: 62.5%;
 }
+/* Body Styling */
 body {
   height: 100vh;
   font-size: 1.6rem;
@@ -14,6 +17,7 @@ body {
   background-position: center;
   background-size: cover;
 }
+/* Header Section Styling */
 header {
   background-color: #ffffffc8;
   height: 10vh;
@@ -29,6 +33,7 @@ header {
   color: #130059;
   cursor: pointer;
 }
+/* Main Display Styling */
 .mainDisplay {
   display: flex;
   flex-direction: column;
@@ -36,6 +41,7 @@ header {
   align-items: center;
   height: 90vh;
 }
+/* Inputbox Styling */
 #searchItem {
   padding: 0.5rem 1rem;
   height: 5rem;
@@ -48,10 +54,12 @@ header {
   border-radius: 1rem;
   background: #ffffff5f;
 }
+/* On Search Result styling */
 .onSeachResults {
   display: flex;
   flex-direction: column;
 }
+/* On Search Each result styling */
 .eachResult {
   width: 50vw;
   display: flex;
@@ -79,6 +87,7 @@ header {
   object-fit: cover;
   margin-right: 2rem;
 }
+/* After Clicked oneHero Styling */
 .oneHero {
   width: 70vw;
   margin: auto;
@@ -112,10 +121,12 @@ header {
 .charHeading {
   color: #7dffee;
 }
+/* one hero exit */
 .exit {
   color: #ff7d7d;
   cursor: pointer;
 }
+/* Mobile View Styling */
 @media (max-width: 768px) {
   header {
     justify-content: center;
